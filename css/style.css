@@ -1,0 +1,31 @@
+*{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.main-container{
+    background-color: #eee;
+    margin:auto;
+    width:480px;
+    padding:20px;
+    border-style: solid;
+    border-color: #555;
+    border-radius: 10px;
+}
+#safari{
+    width:50%;
+    margin:auto;
+    border:solid #eee;
+}
+#safari:hover{
+    border: solid #888;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
