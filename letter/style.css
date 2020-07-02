@@ -1,0 +1,20 @@
+
+p{
+    font-size: 18px;
+}
+#container{
+    margin:auto;
+    width:720px;
+}
+#address{
+    text-align: right;;
+}
+.para{
+    margin:0;
+    padding:0;
+    padding-left:40px;
+}
+.tt{
+    margin:0;
+    padding:0;
+}
