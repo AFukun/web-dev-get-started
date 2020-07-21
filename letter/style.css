@@ -1,4 +1,5 @@
 
+
 blockquote{
     margin-top:0;
     margin-bottom: 0;
@@ -7,10 +8,15 @@ blockquote{
 }
 p{
     font-size: 18px;
+    line-height: 1.0;
+ 
 }
 #container{
     margin:auto;
     width:720px;
+}
+.subtext{
+    margin:0;
 }
 #address{
     text-align: right;;
