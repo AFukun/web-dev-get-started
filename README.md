@@ -6,3 +6,5 @@ Getting started with web development: http://afukun.github.io/getting-started
 
 ### HTML--Structuring the Web
 Marking up a letter: http://afukun.github.io/markup-a-letter
+
+Structuring a page of content:http://afukun.github.io/structuring-a-homepage
