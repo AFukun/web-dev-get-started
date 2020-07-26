@@ -1,5 +1,5 @@
 *{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: sans-serif;
 }
 .main-container{
     background-color: #eee;
@@ -10,11 +10,13 @@
     border-color: #555;
     border-radius: 10px;
 }
-#safari{
+
+.img{
     width:50%;
     margin:auto;
     border:solid #eee;
 }
+
 #safari:hover{
     border: solid #888;
     box-sizing: border-box;
@@ -22,10 +24,38 @@
 
 
 a{
+    color:black;
     text-decoration: none;
+    
+
 }
+
 a:hover
 {
-    text-decoration: underline;
+
+    text-decoration:none;
 }
+
+button{
+    font-size:20px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:#666;
+    background-color: #666;
+    padding:5px;
+}
+ul
+{
+    list-style:none;
+}
+
+ul li{
+    font-family: Courier New;
+    font-size:18px;
+    font-weight: bold;
+}
+
+
 
