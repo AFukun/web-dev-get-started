@@ -10,7 +10,9 @@ Getting started with web development: http://afukun.github.io/getting-started
 
 Marking up a letter: http://afukun.github.io/markup-a-letter
 
-Structuring a page of content:  http://afukun.github.io/structuring-a-homepage
+Structuring a page of content: http://afukun.github.io/structuring-a-homepage
 
-MDN splash page:  http://afukun.github.io/mdn-splash-page
+MDN splash page: http://afukun.github.io/mdn-splash-page
+
+Structuring planet data: http://afukun.github.io/structuring-planet-data
 
