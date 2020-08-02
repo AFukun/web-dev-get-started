@@ -1,0 +1,173 @@
+/* import fonts */
+@font-face {
+    font-family: "bodyFont";
+    src: url("fonts/JosefinSlab-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "bodyFont";
+    src: url("fonts/JosefinSlab-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "bodyFont";
+    src: url("fonts/JosefinSlab-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "headingFont";
+src: url("fonts/Acme-Regular.ttf");
+}
+
+/* General styling */
+body {
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 1080px;
+    /* 10px对于现在FHD和2k屏来说太小了 */
+    font-size: 16px;
+    font-family: bodyFont;
+    line-height: 1.2;
+    letter-spacing: .1em;
+    word-spacing: .1em;
+}
+
+h1,
+h2,
+h3,
+footer {
+    font-family: headingFont;
+    letter-spacing: .2em;
+}
+
+header {
+
+    margin: 10px 0;
+    padding: 20px 0;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+    text-align: center;
+}
+
+section p {
+    text-indent: 20px;
+}
+
+footer {
+    margin: 10px 0;
+    padding: 20px 0;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+    text-align: center;
+}
+
+/* Link styling */
+a {
+    color: brown;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+a:click {
+    color: black;
+
+}
+
+a[href*="https:"] {
+    font-style: italic;
+    padding-right: 1.2em;
+    background-image: url("https://mdn.mozillademos.org/files/12982/external-link-52.png");
+    background-position: right center;
+    background-size: 0.8em 0.8em;
+    background-repeat: no-repeat;
+}
+
+/* List styling */
+ul {
+    list-style-type: square;
+}
+
+ul a {
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+/* Navbar styling */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav li {
+    width:
+        font-size: 1.2em;
+    margin: 1em;
+    padding: 1em 1em;
+    outline: 1px solid brown;
+}
+
+nav a:hover {
+    color: red;
+
+}
+
+/* layout */
+
+section {
+    margin: 0;
+    padding: 1em;
+    display: inline-block;
+    width: 40%;
+}
+
+aside {
+    margin: 0;
+    padding: 1em;
+    padding-right: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+/* Responsive layout*/
+@media(max-width: 720px) {
+
+    section,
+    aside,
+    nav {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 60%;
+    }
+
+}
