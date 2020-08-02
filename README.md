@@ -24,3 +24,6 @@ Step1 MDN教程的所有作业的代码放在[这个仓库](https://github.com/A
     * [Fundamental CSS comprehension](http://afukun.github.io/fundamental-css-comprehension)
     * [Fancy Letterheaded Paper](http://afukun.github.io/fancy-letterheaded-paper)
     * [A cool box](http://afukun.github.io/cool-information-box)
+3.  [Styling text](http://afukun.github.io/typesetting-a-homepage)
+4.  [CSS layout](http://afukun.github.io/fundamental-layout-comprehension)
+
