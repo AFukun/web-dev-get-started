@@ -14,7 +14,7 @@ Step1 MDN教程的所有作业的代码放在[这个仓库](https://github.com/A
 2. [Structuring a page of content](http://afukun.github.io/structuring-a-homepage)
 3. [MDN splash page](http://afukun.github.io/mdn-splash-page)
 4. [Structuring planet data](http://afukun.github.io/structuring-planet-data)
-
+5. 补充：健康申报
 -----
 
 ### CSS — Styling the Web
@@ -27,3 +27,8 @@ Step1 MDN教程的所有作业的代码放在[这个仓库](https://github.com/A
 3.  [Styling text](http://afukun.github.io/typesetting-a-homepage)
 4.  [CSS layout](http://afukun.github.io/fundamental-layout-comprehension)
 
+### JavaScript — Dynamic client-side scripting
+1. [JavaScript first steps](http://afukun.github.io/silly-story-generator)
+2. JavaScript building blocks
+3. Introducing JavaScript objects
+4. 补充：搜索widget
