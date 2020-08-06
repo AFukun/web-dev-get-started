@@ -31,4 +31,4 @@ Step1 MDN教程的所有作业的代码放在[这个仓库](https://github.com/A
 1. [JavaScript first steps](http://afukun.github.io/silly-story-generator)
 2. [JavaScript building blocks](http://afukun.github.io/image-gallery)
 3. [Introducing JavaScript objects](http://afukun.github.io/bouncing-balls)
-4. 补充：搜索widget
+4. [搜索widget](http://afukun.github.io/search-widget)
