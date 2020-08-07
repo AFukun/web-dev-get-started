@@ -1,19 +1,18 @@
 let input = document.querySelector("input");
 let list = document.querySelector("ul");
 
-function debounce() {
-    return new Promise(resolve => {
-        let wait = setTimeout(() => {
-            resolve("done");
-        }, 700);
-        input.addEventListener("input", () => {
-            clearTimeout(wait);
-        })
-    });
-}
+function debounce(func, delay) {
+    let timer;
+    return () => {
+        if (timer) clearTimeout(timer);
+        timer = setTimeout(func, delay);
+    };
+    /* 独立思考，拒绝剽窃，不懂就问 */
+};
+
+input.addEventListener("input", debounce(fetchAndAdd, 500));
 
 async function fetchAndAdd() {
-    await debounce();
     let load = document.createElement("p");
     load.textContent = "Loading..."
 
@@ -36,5 +35,3 @@ async function fetchAndAdd() {
         }
     });
 }
-
-input.addEventListener("input", fetchAndAdd);
