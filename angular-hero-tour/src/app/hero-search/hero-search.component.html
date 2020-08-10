@@ -1,8 +1,0 @@
-<div id="search-bar">
-  <input #searchText placeholder="Search hero" (input)="search(searchText.value)">
-  <ul class="search-result">
-    <li *ngFor="let hero of heroes$ | async">
-      <a routerLink="/detail/{{hero.id}}"> {{hero.name}} </a>
-    </li>
-  </ul>
-</div>
