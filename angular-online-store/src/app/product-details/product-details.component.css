@@ -1,0 +1,36 @@
+.title{
+    width:480px;
+    display: flex;
+}
+h2{
+    margin-bottom: 0;
+}
+h3 {
+    flex:4;
+    margin-bottom: 0;
+    text-align: left;
+    color:#1976d2;
+    font-size:1.5em;
+}
+
+h4 {
+    margin-top:26px;
+    margin-bottom: 0;
+    padding:0;
+    color: indianred;
+    font-size:1.2em;
+    flex:1;
+
+}
+.buyButton{
+    font-size:1.2em;
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin:2em auto;
+}
+.back{
+    position: relative;
+    left:-18px;
+    top:20px;
+}

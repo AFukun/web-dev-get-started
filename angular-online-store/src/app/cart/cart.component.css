@@ -1,0 +1,48 @@
+h2{
+    font-size:2em;
+}
+.empty{
+    display: block;
+    text-align: center;
+    width:200px;
+    margin:0 auto;
+}
+
+ul
+{
+    margin-left:0;
+    margin-right:0;
+    width: 100%;
+    padding:0;
+}
+
+li{
+    width:480px;
+    margin-right:0;
+}
+
+#total{
+    background-color: antiquewhite;
+}
+
+/* form style */
+form{
+    width:100%;
+}
+
+label{
+    font-size:1em;
+    padding-left:5%;
+}
+
+input {
+    display: block;
+    width:400px;
+    margin-left:30px;
+}
+
+form button{
+    display: block;
+    width:200px;
+    margin:0 auto;
+}

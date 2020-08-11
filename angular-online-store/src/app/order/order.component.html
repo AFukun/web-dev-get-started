@@ -1,0 +1,13 @@
+<h2> Order Success! </h2>
+<div class="detail">
+    <h3>Order Detail</h3>
+    <p>Client Name: {{name}}</p>
+    <p>Client Address: {{address}}</p>
+    <p>Order List:</p>
+    <ul>
+        <li *ngFor="let item of items"> {{item.name}}, {{item.price | currency}} </li>
+        <li *ngIf="shipping.type!=='Select'"> Shipping: {{shipping.type}}, {{shipping.price | currency}} </li>
+    </ul>
+    <p>Total: {{total | currency}}</p>
+</div>
+<button (click)="clear()">Done</button>
